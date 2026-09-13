@@ -1,0 +1,24 @@
+# ── dependencies / build output ──────────────────────────────────────────────
+node_modules/
+dist/
+*.tgz
+
+# ── credentials & secrets: NEVER commit ──────────────────────────────────────
+# the remote machine registry stores plaintext passwords / key passphrases
+machines.json
+.env
+.env.*
+*.pem
+*.key
+*.ppk
+id_rsa*
+known_hosts
+.npmrc
+.credentials.yaml
+
+# ── local backups / editor / OS junk ─────────────────────────────────────────
+*.bak-*
+*.bak
+*.orig
+.DS_Store
+Thumbs.db
